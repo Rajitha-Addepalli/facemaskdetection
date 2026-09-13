@@ -1,14 +1,32 @@
-# Ignore dataset
-dataset/
-
-# Ignore model files
-*.model
-*.keras
-*.h5
-
-# Ignore virtual environment
 venv/
-
-# Python cache
 __pycache__/
 *.pyc
+
+# Dataset
+dataset/
+
+# Trained models
+*.keras
+*.model
+
+# Generated logs
+detection_log.csv
+violation_log.csv
+violations_log.csv
+
+# Generated training outputs
+results/
+accuracy_curve.png
+loss_curve.png
+precision_curve.png
+recall_curve.png
+confusion_matrix.png
+classification_report.txt
+
+# Video files
+*.mp4
+*.avi
+*.mov
+
+# YuNet model
+*.onnx
